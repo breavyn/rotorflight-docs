@@ -177,13 +177,13 @@ export default {
           srcDark: "img/Rotorflight_outline_dark.svg",
         },
         items: [
-          { to: "/announcement", label: "Announcements", position: "left" },
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
+          { to: "/announcement", label: "Announcements", position: "left" },
           {
             type: "docSidebar",
             sidebarId: "ControllerSidebar",

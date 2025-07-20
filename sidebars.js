@@ -40,14 +40,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Tutorial - examples",
+      label: "Examples",
       collapsed: true,
       link: { type: "doc", id: "examples/index" },
       items: ["examples/example-1"],
     },
     {
       type: "category",
-      label: "Tutorial - setup",
+      label: "Setup",
       collapsed: true,
       items: [
         {
