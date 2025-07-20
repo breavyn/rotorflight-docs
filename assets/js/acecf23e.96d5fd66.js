@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrotorflight_docs=self.webpackChunkrotorflight_docs||[]).push([[4284],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/rotorflight-docs/announcement","blogTitle":"Blog","authorsListPath":"/rotorflight-docs/announcement/authors"}')}}]);
