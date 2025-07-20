@@ -4,7 +4,7 @@
         <title>Rotorflight Blog</title>
         <link>https://breavyn.github.io/rotorflight-docs/announcement</link>
         <description>Rotorflight Blog</description>
-        <lastBuildDate>Sun, 20 Jul 2025 10:16:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Jul 2025 10:25:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[Official Release 2.2.0]]></title>
             <link>https://breavyn.github.io/rotorflight-docs/announcement/Official Release 2.2.0</link>
             <guid>https://breavyn.github.io/rotorflight-docs/announcement/Official Release 2.2.0</guid>
-            <pubDate>Sun, 20 Jul 2025 10:16:42 GMT</pubDate>
+            <pubDate>Sun, 20 Jul 2025 10:25:13 GMT</pubDate>
             <description><![CDATA[Download Notes\]]></description>
-            <content:encoded><![CDATA[<p><a href="https://breavyn.github.io/rotorflight-docs/docs/download/notes"><strong>Download Notes</strong></a><br>
-<a href="https://breavyn.github.io/rotorflight-docs/docs/download/configurator"><strong>Download Configurator</strong></a><br>
-<a href="https://breavyn.github.io/rotorflight-docs/docs/download/blackbox"><strong>Download Blackbox</strong></a><br>
-<a href="https://breavyn.github.io/rotorflight-docs/docs/download/edge-tx-Lua"><strong>Download EdgeTX Lua</strong></a><br>
-<a href="https://breavyn.github.io/rotorflight-docs/docs/download/ethos-Lua"><strong>Download Ethos Lua</strong></a></p>
+            <content:encoded><![CDATA[<p><a href="https://breavyn.github.io/rotorflight-docs/docs/download/notes.mdx"><strong>Download Notes</strong></a><br>
+<a href="https://breavyn.github.io/rotorflight-docs/docs/download/configurator.md"><strong>Download Configurator</strong></a><br>
+<a href="https://breavyn.github.io/rotorflight-docs/docs/download/blackbox.md"><strong>Download Blackbox</strong></a><br>
+<a href="https://breavyn.github.io/rotorflight-docs/docs/download/edge-tx-Lua.md"><strong>Download EdgeTX Lua</strong></a><br>
+<a href="https://breavyn.github.io/rotorflight-docs/docs/download/ethos-Lua.md"><strong>Download Ethos Lua</strong></a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-firmware-rotorflight-45x">🔧 Firmware (Rotorflight 4.5.x)<a href="https://breavyn.github.io/rotorflight-docs/announcement/Official%20Release%202.2.0#-firmware-rotorflight-45x" class="hash-link" aria-label="Direct link to 🔧 Firmware (Rotorflight 4.5.x)" title="Direct link to 🔧 Firmware (Rotorflight 4.5.x)">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-new-features">🆕 New Features<a href="https://breavyn.github.io/rotorflight-docs/announcement/Official%20Release%202.2.0#-new-features" class="hash-link" aria-label="Direct link to 🆕 New Features" title="Direct link to 🆕 New Features">​</a></h3>
 <ul>
