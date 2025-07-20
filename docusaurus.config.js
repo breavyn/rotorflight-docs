@@ -1,12 +1,8 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-
-//const lightCodeTheme = require('prism-react-renderer/themes/github');
-//const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,7 +10,7 @@ const config = {
   tagline: "Open-source Helicopter flight controller",
   favicon: "img/rffavicon.ico",
 
-  url: "https://github.com/", // Your website URL
+  url: "https://github.com/",
   baseUrl: "/",
   projectName: "rotorflight.github.io",
   organizationName: "rotorflight",
@@ -39,7 +35,8 @@ const config = {
   plugins: [
     [
       "@docusaurus/plugin-client-redirects",
-      {
+      /** @type {import('@docusaurus/plugin-client-redirects').Options} */
+      ({
         fromExtensions: ["html", "htm"],
         toExtensions: ["exe", "zip"],
         redirects: [
@@ -119,19 +116,22 @@ const config = {
         createRedirects(existingPath) {
           if (existingPath.includes("/docs/Wiki")) {
             return [existingPath.replace("/docs/Wiki", "/docs/2.0.0/Wiki")];
-          } else if (existingPath.includes("/docs/configurator")) {
+          }
+
+          if (existingPath.includes("/docs/configurator")) {
             return [
               existingPath.replace(
                 "/docs/configurator",
                 "/docs/2.2.0/configurator",
               ),
             ];
-          } else if (existingPath.includes("/docs/next")) {
+          }
+
+          if (existingPath.includes("/docs/next")) {
             return [existingPath.replace("/docs/next", "/docs/2.3.0")];
           }
-          return undefined; // Return a falsy value: no redirect created
         },
-      },
+      }),
     ],
     require.resolve("docusaurus-lunr-search"),
   ],
@@ -143,7 +143,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/rotorflight/rotorflight-docs/tree/main",
         },
@@ -188,40 +187,34 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
-            to: "/docs/examples/example-1",
           },
           {
             type: "docSidebar",
             sidebarId: "ControllerSidebar",
             position: "left",
             label: "Download",
-            to: "/docs/download/configurator",
           },
           {
             type: "docSidebar",
             sidebarId: "manufactSidebar",
             position: "left",
             label: "Manufacturers",
-            to: "/docs/Manufacturers/intro",
           },
           {
             type: "docSidebar",
             sidebarId: "tuningSidebar",
             position: "left",
             label: "Tuning",
-            to: "/docs/Tuning/Tuning-description",
           },
           {
             type: "docSidebar",
             sidebarId: "developSidebar",
             position: "left",
             label: "Contributing",
-            to: "/docs/Contributing/intro",
           },
           {
             type: "docsVersionDropdown",
             position: "right",
-            banner: "unreleased",
           },
           {
             href: "https://www.rotorflight.org/donate",
