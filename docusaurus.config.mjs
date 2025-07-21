@@ -198,12 +198,6 @@ export default {
           },
           {
             type: "docSidebar",
-            sidebarId: "tuningSidebar",
-            position: "left",
-            label: "Tuning",
-          },
-          {
-            type: "docSidebar",
             sidebarId: "developSidebar",
             position: "left",
             label: "Contributing",
