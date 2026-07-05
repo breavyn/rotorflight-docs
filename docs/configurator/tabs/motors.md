@@ -104,7 +104,7 @@ Determine the number of magnetic poles for each motor. Count the number of magne
 
 ![Motor and ESC](/rotorflight-docs/assets/images/motor-pole-count-2-71efc3c67848e75efe564111e4e0ee1c.png)
 
-## [Governor Features](/rotorflight-docs/docs/setup/governor.md#governor-mode)[​](#governor-features "Direct link to governor-features")
+## [Governor Features](/rotorflight-docs/docs/configurator/tabs/governor.md)[​](#governor-features "Direct link to governor-features")
 
 ## Motor Override[​](#motor-override "Direct link to Motor Override")
 
